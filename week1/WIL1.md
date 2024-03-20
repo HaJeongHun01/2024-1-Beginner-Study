@@ -11,4 +11,5 @@
 7. 그 다음 vscode에서 원하는 코드 작성
 8. 다시 git add . 과 git commit -m "원하는 commit" 작성
 9. 그 다음 git push origin main 으로 github로 보내주기
+
 (이 순서 그대로 안하면 자꾸 오류 뜸)
