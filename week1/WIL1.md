@@ -17,3 +17,5 @@
 1. 위의 순서 중 Repository 먼저 만들면 코드가 안뜸
 2. 위의 순서 중 하나라도 틀리면 코드가 안뜸
 3. 만약 내용을 추가한다면 8~9번 반복 (commit을 계속 불러와야 하는 듯) + 꼭 ctrl s로 저장해주기 (저장 안하면 적용 안됨)
+
+과제 링크 : https://github.com/HaJeongHun01/HaJeongHun01
