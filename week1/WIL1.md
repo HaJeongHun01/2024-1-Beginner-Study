@@ -1,4 +1,4 @@
-## week1
+## Week1
 
 #vscode-git hub연동법
 
