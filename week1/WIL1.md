@@ -22,4 +22,5 @@
 add - commit 전 단계 add .은 전체파일, add 파일명은 개별파일
 commit - git에 그 상태를 저장하는 것, 즉 나중에 파일이 손상되거나 변경되더라도 다시 돌아갈 수 있음
 
-과제 링크 : https://github.com/HaJeongHun01/HaJeongHun01
+## 과제 링크
+https://github.com/HaJeongHun01/HaJeongHun01
