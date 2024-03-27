@@ -35,7 +35,7 @@ Merge : main branch (사용하던 소스코드)로 합병, 합치는 과정 <br/
         git checkout "이름" : 해당 branch로 이동 <br/>
        - 현재 머물러 있는 branch는 vscode 좌측 하단에 표시 됨
 3. 파일 만들기 - 해당 파일 만든 후 commit하고 push해주기 (이때 branch 명으로 push 해주기)
-4. pull request 만들기 - git hub에서 pull requset를 생성 후, 병합 대상과 목적지를 설정하며 제목과 설명을 작성 - 만약 이슈를 닫고 싶다면 '-close #issue             number' 을 description에 기입 (이번 실습에서는 열어둔다)
+4. pull request 만들기 - git hub에서 pull requset를 생성 후, 병합 대상과 목적지를 설정하며 제목과 설명을 작성 - 만약 이슈를 닫고 싶다면   '-close #issue number' 을 description에 기입 (이번 실습에서는 열어둔다)
 5. merge - 3개의 옵션 중 하나를 골라 (이번 실습에서는 squash merge) merge하기
 6. 나의 repositories에서 확인한다
 
