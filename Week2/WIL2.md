@@ -21,9 +21,9 @@ Branch : 위와 동일
 Pull request : 병합을 하기 전 단계, 코드리뷰
 
 Merge : main branch (사용하던 소스코드)로 합병, 합치는 과정 <br/>
-종류 - 1. merge commit - 순서대로 commit하고 이를 참조하는 main을 형성,  이는 모든 기록             들을 포함한다. <br/>
-   2. squash merge - commit들을 하나로 합친 후 main에 추가, 필요성이 적은        commit들은  제거한다 - 비교적 코드가 깔끔해진다 <br/>
-   3. rebase merge - commit들을 합치지 않고 그냥 바로 main에 추가한다 - 이는 commit     hash 발생 가능성이 있어 보통 사용을 지양한다.
+종류 - 1. merge commit - 순서대로 commit하고 이를 참조하는 main을 형성,  이는 모든 기록들을 포함한다. <br/>
+   2. squash merge - commit들을 하나로 합친 후 main에 추가, 필요성이 적은  commit들은  제거한다 - 비교적 코드가 깔끔해진다 <br/>
+   3. rebase merge - commit들을 합치지 않고 그냥 바로 main에 추가한다 - 이는 commit hash 발생 가능성이 있어 보통 사용을 지양한다.
 
 ## 실습
 1. issue 만들기 - git hub의 repositories에서 만든다 <br/>
@@ -34,8 +34,8 @@ Merge : main branch (사용하던 소스코드)로 합병, 합치는 과정 <br/
         git branch -a : 현재 존재하는 모든 branch 표시 <br/>
         git checkout "이름" : 해당 branch로 이동 <br/>
        - 현재 머물러 있는 branch는 vscode 좌측 하단에 표시 됨
-3. 파일 만들기 - 해당 파일 만든 후 commit하고 push해주기 (이때 branch 명으로 push를        해주기)
-4. pull request 만들기 - git hub에서 pull requset를 생성 후, 병합 대상과 목적지를 설정하                     며 제목과 설명을 작성 - 만약 이슈를 닫고 싶다면 '-close #issue             number' 을 description에 기입 (이번 실습에서는 열어둔다)
+3. 파일 만들기 - 해당 파일 만든 후 commit하고 push해주기 (이때 branch 명으로 push 해주기)
+4. pull request 만들기 - git hub에서 pull requset를 생성 후, 병합 대상과 목적지를 설정하며 제목과 설명을 작성 - 만약 이슈를 닫고 싶다면 '-close #issue             number' 을 description에 기입 (이번 실습에서는 열어둔다)
 5. merge - 3개의 옵션 중 하나를 골라 (이번 실습에서는 squash merge) merge하기
 6. 나의 repositories에서 확인한다
 
