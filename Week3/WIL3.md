@@ -19,14 +19,23 @@ commit 유뮤
 untracked, tracked 확인 (add(commit)가 한 번이라도 된 적이 있는 파일인 지)
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-unmodified, modified 확인 (staged 또는 commit이후 수정이 되었는 지) - 이때 unmodified/tracked이라면 'nothing to commit,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; working tree clean'이라는 문구가 - modified라면, 'Changes not staged for commit:' 문구가 나옴
+unmodified, modified 확인 (staged 또는 commit이후 수정이 되었는 지)
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-이때 unmodified/tracked이라면 'nothing to commit, working tree clean'이라는 문구가 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-modified라면, 'Changes not staged for commit:' 문구가 나옴
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 주의점 - 파일 저장을 해야지 unmodified, modified확인 가능
 <br>
 요약 : git status라는 명령어는 add, commit등으로 파일의 상태를 working directory, staging area, local repo, (github push한다면 remote repo도 추가)와 같은 영역으로 구분되게 되는데, 현재 파일이 어떠한 상태인 지 위와 같은 표시들로 알려줌.
 ## Commit 수정
-
+git commit --amend : 가장 최근의 commit 메세지 수정 (단, commit id도 변경 됨)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+insert를 눌러 수정을 한 뒤, esc :wq로 나와주면 된다.<br>
+git commit --amend -m "수정할 메세지" : vim 진입 없이 바로 수정 <br>
+git commit --amend --no-edit : 메세지 수정없이 commit
 
 
 
