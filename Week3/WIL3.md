@@ -19,7 +19,7 @@ commit 유뮤
 untracked, tracked 확인 (add(commit)가 한 번이라도 된 적이 있는 파일인 지)
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-unmodified, modified 확인 (staged 또는 commit이후 수정이 되었는 지) - 이때 unmodified/tracked이라면 'nothing to commit, working tree clean'이라는 문구가 - modified라면, 'Changes not staged for commit:' 문구가 나옴
+unmodified, modified 확인 (staged 또는 commit이후 수정이 되었는 지) - 이때 unmodified/tracked이라면 'nothing to commit,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; working tree clean'이라는 문구가 - modified라면, 'Changes not staged for commit:' 문구가 나옴
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 주의점 - 파일 저장을 해야지 unmodified, modified확인 가능
