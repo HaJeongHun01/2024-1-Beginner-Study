@@ -40,7 +40,7 @@ reset -> 범위 내 commit을 제거할 때 사용 - 특정 commit으로 돌아�
 reset --soft "commit id" : commit만 취소 후, 변경 사항 staging area로 이동
 reset --mixed "commit id" : commit을 취소 후, 변경 사항 woriking directory로 이동
 reset --hard "commit id" : commit + 변경 사항 모두 제거 > 이전 commit으로 돌아감<br>
-이때 가장 최근 commit말고도 가능하며, 최근~해당 commit까지 모두 동일하게 적용 (이때 hard라면 최근~해당 직전 commit들은 그냥 삭제) <br><br>
+이때 가장 최근 commit말고도 가능하며, 최근->해당 commit까지 모두 동일하게 적용 (이때 hard라면 최근->해당 직전 commit들은 그냥 삭제) <br><br>
 revert -> 특정 commit 시점으로 되돌리기
 git revert "commit id" : 해당 commit 되돌리기
 git revert --no-edit "commit id" : 편집기 진입 없이 바로
