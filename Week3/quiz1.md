@@ -37,8 +37,8 @@ Working Directory에 있는 파일들을 모두 Staging Area에 추가할 수 �
 위의 세 가지가 어떤 차이가 있는지 간단히 적으시오.
 
 - 답: 1. merge commit - 순서대로 commit하고 이를 참조하는 main을 형성, 이는 모든 기록들을 포함한다. <br>
- 2. squash merge - commit들을 하나로 합친 후 main에 추가, 필요성이 적은 commit들은 제거한다 - 비교적 코드가 깔끔해진다 <br>
- 3. rebase merge - commit들을 합치지 않고 그냥 바로 main에 추가한다 - 이는 commit hash 발생 가능성이 있어 보통 사용을 지양한다. <br>
+ &nbsp;2. squash merge - commit들을 하나로 합친 후 main에 추가, 필요성이 적은 commit들은 제거한다 - 비교적 코드가 깔끔해진다 <br>
+ &nbsp;3. rebase merge - commit들을 합치지 않고 그냥 바로 main에 추가한다 - 이는 commit hash 발생 가능성이 있어 보통 사용을 지양한다. <br>
 
 ### Q6
 ```git log --oneline```으로 commit의 기록을 확인해보니  
