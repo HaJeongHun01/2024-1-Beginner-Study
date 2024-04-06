@@ -47,4 +47,4 @@ git revert --no-edit "commit id" : 편집기 진입 없이 바로
 git revert --no-commit : 직접 commit 하지 않고, 내용을 바로 staging area로 올림 <br> <br>
 reset : 이전 이력을 모두 삭제해서 되돌아감 <br>
 revert : 특정 commit을 되돌리는 것으로 이전 이력은 남아있음 <br>
-=> reset을 사용하면, 특히 협업과 같은 상황에서는 충돌이 일어날 가능성이 있으므로 평소에는 revert 사용을 권장함
+=> reset을 사용하면, 특히 협업과 같은 상황에서는 충돌이 일어날 가능성이 있으므로 평소에는 revert 사용을 권장함.
