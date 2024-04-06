@@ -30,15 +30,15 @@ unmodified, modified 확인 (staged 또는 commit이후 수정이 되었는 지)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 주의점 - 파일 저장을 해야지 unmodified, modified확인 가능
 <br>
-요약 : git status라는 명령어는 add, commit등으로 파일의 상태를 working directory, staging area, local repo, (github push한다면 remote repo도 추가)와 같은 영역으로 구분되게 되는데, 현재 파일이 어떠한 상태인 지 위와 같은 표시들로 알려줌.
+요약 : git status라는 명령어는 add, commit등으로 파일의 상태를 working directory, staging area, local repo, (github로 push한다면 remote repo도 추가)와 같은 영역으로 구분되게 되는데, 현재 파일이 어떠한 상태인 지 위와 같은 표시들로 알려줌.
 ## Commit 수정
 git commit --amend : 가장 최근의 commit 메세지 수정 (단, commit id도 변경 됨)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 insert를 눌러 수정을 한 뒤, esc :wq로 나와주면 된다.<br>
 git commit --amend -m "수정할 메세지" : vim 진입 없이 바로 수정 <br>
 git commit --amend --no-edit : 메세지 수정없이 commit <br> <br>
 reset -> 범위 내 commit을 제거할 때 사용 - 특정 commit으로 돌아가기, soft mixed(default) hard 3가지가 있다.
-reset --soft "commit id" : commit만 취소 후 staging area로 이동
-reset --mixed "commit id" : commit을 취소 후, woriking directory로 이동
+reset --soft "commit id" : commit만 취소 후, 변경 사항 staging area로 이동
+reset --mixed "commit id" : commit을 취소 후, 변경 사항 woriking directory로 이동
 reset --hard "commit id" : commit + 변경 사항 모두 제거 > 이전 commit으로 돌아감<br>
 이때 가장 최근 commit말고도 가능하며, 최근~해당 commit까지 모두 동일하게 적용 (이때 hard라면 최근~해당 직전 commit들은 그냥 삭제) <br><br>
 revert -> 특정 commit 시점으로 되돌리기
