@@ -37,5 +37,5 @@ insert를 눌러 수정을 한 뒤, esc :wq로 나와주면 된다.<br>
 git commit --amend -m "수정할 메세지" : vim 진입 없이 바로 수정 <br>
 git commit --amend --no-edit : 메세지 수정없이 commit
 
-
+fdfdf
 
