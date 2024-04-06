@@ -42,8 +42,8 @@ reset --mixed "commit id" : commit을 취소 후, 변경 사항 woriking directo
 reset --hard "commit id" : commit + 변경 사항 모두 제거 > 이전 commit으로 돌아감<br>
 *이때 가장 최근 commit말고도 가능하며, 최근->해당 commit까지 모두 동일하게 적용 (이때 hard라면 최근->해당 직전 commit들은 그냥 삭제) <br><br>
 revert -> 특정 commit 시점으로 되돌리기
-git revert "commit id" : 해당 commit 되돌리기
-git revert --no-edit "commit id" : 편집기 진입 없이 바로
+git revert "commit id" : 해당 commit 되돌리기 <br>
+git revert --no-edit "commit id" : 편집기 진입 없이 바로 <br>
 git revert --no-commit : 직접 commit 하지 않고, 내용을 바로 staging area로 올림 <br> <br>
 reset : 이전 이력을 모두 삭제해서 되돌아감 <br>
 revert : 특정 commit을 되돌리는 것으로 이전 이력은 남아있음 <br>
