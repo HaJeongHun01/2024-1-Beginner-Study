@@ -12,7 +12,7 @@ HEAD: git log로 확인해보면 가장 최근 commit에 HEAD표시가 있는데
 git status: 현재 상태를 알려주는 명령어로 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 현재 checkout되어 있는 branch표시
-<br>
+<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 commit 유뮤 
 <br>
