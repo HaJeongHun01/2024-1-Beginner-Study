@@ -8,8 +8,8 @@
 4. 코드 리뷰 및 품질 관리 >> 코드 품질 향상상 <br>
 5. 배포 및 롤백의 용이성 <br>
 
-또한 생성한 브랜치들을 안전하게 관리하기 위해 아래와 같은 규칙들이 존재한다. <br>
-Branch Protection Rules <br>
+또한 생성한 브랜치들을 안전하게 관리하기 위해 아래와 같은 규칙들이 존재한다. <br><br>
+**Branch Protection Rules** <br>
 1. Branch name pattern - 특정 branch에 대해 규칙이 적용될 수 있게 한다. <br>
 2. Require a pull request before merging - 해당 branch에 커밋을 추가하기 위힌 로컬에서의 Direct push가 불가능하고 별도의 branch를 만들어 pull request를 해야한다. (Direct push 방지용) <br>
 3. Require status checks to pass before merging - 테스트 결과 이상이 없을 때만 merge가 가능하게 한다 <br>
@@ -24,7 +24,7 @@ Branch Protection Rules <br>
 <br>
 ## Branch 전략
 위에 작성한 바와 같이, 완성되지 않은 소스코드인 main의 상태에서 branch를 사용하지 않는다면 여러 문제와 직면할 수 있다. 특히 협업과 같은 상황에선 더욱 더 혼잡을 야기할 수 있다. 따라서 대다수의 개발자들은 branch를 사용하여 코드를 정리하고 효율적으로 관리하려고 한다. 하지만 이러한 branch들도 규칙을 정하지 않고 마음대로 생성하고 병합을 한다면, 이 역시 혼란과 문제를 야기할 수 있다.<br>
-그러면 어떤 규칙을 따라서 branch를 생성하는 것이 효율 적일까? <br>
+그러면 어떤 규칙을 따라서 branch를 생성하는 것이 효율적일까? <br>
 이 질문에 해답은 본인이 직접 규칙을 만들어도 되지만 더욱 좋은 방법은 Git-Work flow에서 찾을 수 있으며, 이는 효과적인 branch 전략을 보여주고 있다. 그리고 이 워크플로우의 종류에는 크게 Git flow와 Github flow 그리고 Gitlab flow가 있다. (Gitlab flow는 여기서 다루지 않는다.)
 
 ## Git Flow
