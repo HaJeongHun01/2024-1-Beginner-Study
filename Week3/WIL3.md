@@ -14,7 +14,7 @@ git status: 현재 상태를 알려주는 명령어로 <br>
 현재 checkout되어 있는 branch표시
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-commit 유뮤
+commit 유뮤 
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 untracked, tracked 확인 (add(commit)가 한 번이라도 된 적이 있는 파일인 지)
